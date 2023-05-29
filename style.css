@@ -1,0 +1,78 @@
+/*******reset*******/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******header*******/
+
+header{
+    background-color: #7F669D;
+}
+
+.titulo{
+    text-align: center;
+    color: #FBFACD;
+}
+
+.navBar{
+    padding: 1rem;
+}
+
+/*******main*******/
+
+main{
+    background-color: #BA94D1;
+}
+
+.listadoJuegos{
+    color:#FBFACD;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap: 2.5rem;
+}
+
+.coverImg{
+    width: 300px;
+    height: 300px;
+}
+
+.h2Error{
+    color: #7F669D;
+}
+
+.contenedorFormulario{
+    margin-top: 2rem;
+    color:#FBFACD;
+    width: 100%;
+    display: flex;
+    background-color: #DEBACE;
+    justify-content: center;
+}
+
+.buttonCentrado{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.datoRandom{
+    color: #FBFACD;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto 10%;
+    background-color: #7F669D;
+    opacity: 0.5;
+}
+
+.datoRandomTitle{
+    text-decoration: underline;
+}
+
